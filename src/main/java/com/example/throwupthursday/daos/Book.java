@@ -15,6 +15,7 @@ import javax.persistence.GenerationType;
 //            "isbn10":"0871404427",
 //            "isbn13":"9780871404428"
 
+
 @Entity
 public class Book {
     @javax.persistence.Id

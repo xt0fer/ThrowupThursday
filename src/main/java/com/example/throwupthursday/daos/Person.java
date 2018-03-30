@@ -5,6 +5,8 @@ import org.springframework.data.annotation.Id;
 import javax.persistence.Entity;
 import javax.persistence.*;
 
+// POJO
+
 @Entity
 public class Person {
     @javax.persistence.Id
