@@ -24,4 +24,4 @@ dist/
 nbdist/
 .nb-gradle/
 
-frontend/FE/node_modules
+frontend/SimpleMonday/node_modules
