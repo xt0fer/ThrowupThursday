@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+      <ion-list-header>Live People!</ion-list-header>
+
+      <ion-item *ngFor="let person of people">
+        <!-- <img [src]="person.data.url" /> -->
+        <ion-icon name="person" item-start></ion-icon> {{person.name}} age: {{person.age}}
+      </ion-item>
+    </ion-list>
+</ion-content>
