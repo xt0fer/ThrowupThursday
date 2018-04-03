@@ -14,9 +14,14 @@ export class ContactPage {
   people: any;
 
   constructor(public navCtrl: NavController, public http: Http) {
+    // one could, and might, make this a provider, and inject it vi changes to this constructor.
     this.http.get('http://localhost:8080/persons').map(res => res.json()).subscribe(data => {
         //console.log(data);
-        this.people = data._embedded.persons;
+        if (data.status == 200) {
+          this.people = data._embedded.persons;
+        } else {
+          this.people = [{name: 'Unable to Find Any People!', age: 0}];
+        }
     });
 
   }
