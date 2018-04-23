@@ -63,11 +63,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>throwup-thursday</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
+
 	</dependencies>
 
 	<build>
