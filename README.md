@@ -19,11 +19,5 @@ Then open VSC on the SAME project. Go into frontend/SimpleMonday and find a simp
 Spring server above, fetch a single GET from the server display the results in the People tab of the 
 SimpleMonday client.
 
-BUT to make this work, you need to go to [http://localhost:8100]() with the Chrome browser, and then
-download and INSTALL this extension: https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim
-That will allow the SimpleMonday client to load the JSON from localhost:8080
-Otherwise the SimpleMonday client runs afoul of CORS (look it up).
-
-
 #### Kris and Wilhem wrote this, because we feel sorry for the poor Zipcoder-wanna-bees.
-
+*vince fixed CORS so no one has to use spooky browser extensions*
