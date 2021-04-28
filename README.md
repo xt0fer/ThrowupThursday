@@ -1,8 +1,9 @@
 # Throwup Thursday
 
-This example creates two objects Person and Book. Th eperson object has both a Controller and repository.
+This example creates two objects Person and Book. The person object has both a Controller and repository. 
+Book wouldn't be hard to build out.
 
-It's a VERY simple spring example, shows how to build a few simple GETs inclusing one "add" where the GET creates an object based on some Params on the URL, and then returns the created object.
+It's a VERY simple spring example, shows how to build a few simple GETs, of a constant object, an Iterable of one object, and one get all from a repo. And including one "add" where the GET creates an object based on some Params on the URL, and then returns the created object.
 
 POST is left as an exercise for the reader.
 
@@ -10,12 +11,14 @@ POST is left as an exercise for the reader.
 a framework so that we can mock up some data in spring, and then generate
 JSON and other marvels.*
 
-**Run and then point a browser to [http://localhost:8080/]()**
+HAL Browser? what's that? well, kinda like POSTMAN, but something the Spring server does for you based on your objects, showing you what your annotations are really doing, not what you think they're doing.
+
+**Run and then point a browser or POSTMAN to [http://localhost:8080/]()**
 
 ## New and Improved!! As seen ov TV! 
 ## ThrowupThursday can now talk to a MySQL db running on your machine.
 
-Yes, that's right, you can do a very simple CRUDRepository in Spring to suply the data you need!
+Yes, that's right, you can do a very simple CRUDRepository in Spring to supply the data you need!
 
 You're welcome.
 
